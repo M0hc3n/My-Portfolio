@@ -19,6 +19,15 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        "github-main": "#2b3137", 
+        "github-hovered": "#24292e", 
+        "twitter-main": "#14171a", 
+        "twitter-hovered": "#1da1f2", 
+        "linkedin-main": "#004182", 
+        "linkedin-hovered": "#0a66c2", 
+        "heart": "#e31b23"
+      }
     },
   },
   darkMode: "class",

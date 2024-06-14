@@ -3,17 +3,27 @@ import InfoCard from "./InfoCard";
 
 const AboutMe = () => {
   return (
-    <div className="w-full bg-[#020202] flex flex-col lg:flex-row items-center px-[30px] lg:px-[50px] 2xl:px-[100px] gap-[20px] lg:gap[50px] lg:justify-evenly ">
-      <InfoCard />
+    <div className="w-full bg-[#020202] pb-[30px] lg:pb-[70px] px-[30px] lg:px-[50px] 2xl:px-[100px] flex flex-col justify-center  gap-[50px]">
+      <h1 className="text-white text-center text-[32px] font-bold font-montserrat">
+        About Me
+      </h1>
+      <div className="flex flex-col lg:flex-row items-center gap-[20px] lg:gap[50px] lg:justify-evenly ">
+        <InfoCard />
 
-      <p className="text-white text-center text-[20px] font-montserrat  max-w-[500px]  ">
-        Hello, it is Mohcen Taher Chouireb from Algeria. I work in developing
-        high-quality websites using different technologies and I am more
-        specialized in front-end development, but also working on my skills in
-        the back-end. Currently, I am a student at the National Higher School of
-        Artificial Intelligence and I am willing to both learn and discover more
-        about implementing AI in various fields.
-      </p>
+        <p className="text-white text-center leading-9 text-[20px] font-montserrat  max-w-[560px]  ">
+          Hello, it is Mohcen Taher Chouireb, a muslim from Algeria, and a
+          person with deep passion for computers and spends most of his time
+          either reading about trends in CS, or writing incomprehensible text on
+          them (mom&apos;s definition of coding). <br /> I specialize in
+          developing high-quality websites using different technologies and
+          solving real-world problems in my home country (and abroad) using
+          Magic ! (mom&apos;s definition of AI &#128579;). Currently, I am a 1
+          CS student at the National Higher School of Artificial Intelligence.
+          In my spare time, I like to read about History and Geo-politics, I am
+          very fascinated about how historical contexts shape the world we live
+          in today !
+        </p>
+      </div>
     </div>
   );
 };
