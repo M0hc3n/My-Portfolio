@@ -26,6 +26,8 @@ const config: Config = {
         "twitter-hovered": "#1da1f2", 
         "linkedin-main": "#004182", 
         "linkedin-hovered": "#0a66c2", 
+        "google-main": "#4285F4", 
+        "google-hovered": "#EA4335", 
         "heart": "#e31b23"
       }
     },

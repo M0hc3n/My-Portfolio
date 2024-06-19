@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { SocialMedias } from "../types/socialMedia";
 import {
   faGithub,
+  faGoogle,
   faLinkedin,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
@@ -12,6 +13,12 @@ export const socialMedia: SocialMedias = [
     icon: <FontAwesomeIcon className="text-[20px]" icon={faGithub} />,
     className:
       "bg-github-main max-w-fit text-white text-[20px] py-[20px] px-[10px] hover:bg-github-hovered",
+  },
+  {
+    url: "mailto:mohcen.taher.chouireb@gmail.com",
+    icon: <FontAwesomeIcon className="text-[20px]" icon={faGoogle} />,
+    className:
+      "bg-google-main max-w-fit text-white text-[20px] py-[20px] px-[10px] hover:bg-google-hovered",
   },
   {
     url: "https://x.com/tahermohcen",
