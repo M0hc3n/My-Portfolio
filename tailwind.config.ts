@@ -28,6 +28,8 @@ const config: Config = {
         "linkedin-hovered": "#0a66c2", 
         "google-main": "#4285F4", 
         "google-hovered": "#EA4335", 
+        "discord-main": "#7289da", 
+        "discord-hovered": "#1e2124", 
         "heart": "#e31b23"
       }
     },
