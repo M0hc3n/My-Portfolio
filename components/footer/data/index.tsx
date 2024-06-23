@@ -35,7 +35,7 @@ export const socialMedia: SocialMedias = [
       "bg-linkedin-main max-w-fit text-white text-[20px] py-[20px] px-[10px] hover:bg-linkedin-hovered",
   },
   {
-    url: "https://www.linkedin.com/in/mohcen-taher-chouireb-76aa32224/",
+    url: "https://discordapp.com/users/927125505570910239",
     icon: <FontAwesomeIcon className="text-[20px]" icon={faDiscord} />,
     className:
       "bg-discord-main max-w-fit text-white text-[20px] py-[20px] px-[10px] hover:bg-discord-hovered",
