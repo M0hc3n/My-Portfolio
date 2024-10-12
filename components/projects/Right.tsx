@@ -10,7 +10,7 @@ const Right = () => {
   return (
     <div className="flex flex-col gap-[30px] items-end">
       <ProjectList projects={projects.slice(2)} />
-      <Link href="https://github.com/Mohcen2311" target="_blank">
+      <Link href="https://github.com/M0hc3n" target="_blank">
         <IconButton
           label="Check More Projects"
           startIcon={
