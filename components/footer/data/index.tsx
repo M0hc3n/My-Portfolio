@@ -11,7 +11,7 @@ import {
 
 export const socialMedia: SocialMedias = [
   {
-    url: "https://github.com/Mohcen2311",
+    url: "https://github.com/M0hc3n",
     icon: <FontAwesomeIcon className="text-[20px]" icon={faGithub} />,
     className:
       "bg-github-main max-w-fit text-white text-[20px] py-[20px] px-[10px] hover:bg-github-hovered",
