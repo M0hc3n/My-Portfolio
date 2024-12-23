@@ -14,7 +14,7 @@ export default function Home() {
       <main>
         <MultiLayerParallax />
         <AboutMe />
-        <Projects />
+        {/* <Projects /> */}
         <Interests />
         <Blogs />
         <Footer />

@@ -5,7 +5,7 @@ const InfoCard = () => {
   return (
     <div className="h-[400px] w-[260px] lg:w-[350px]">
       <Image
-        alt="Woman listing to music"
+        alt="Mohcen's picture"
         className=" object-contain "
         src="/images/me.jpg"
       />
