@@ -19,7 +19,7 @@ const InterestCard = ({ interest }: { interest: Interest }) => {
         </p>
       </div>
 
-      <p className="text-gray-600 text-left capitalize text-[18px] font-montserrat">
+      <p className="text-gray-600 text-left text-[18px] font-montserrat">
         {interest.description}{" "}
       </p>
     </div>

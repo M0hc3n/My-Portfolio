@@ -9,11 +9,39 @@ const Interests = () => {
         My Interests
       </h1>
 
-      <div className="flex flex-col gap-[30px] lg:flex-row justify-evenly ">
+      <div className="flex flex-col gap-[30px] lg:flex-row lg:gap-[80px] justify-evenly ">
         {interests.map((interest) => (
           <InterestCard key={interest.title} interest={interest} />
         ))}
       </div>
+
+      <span className="text-gray-400">
+        and yeh... I am a fan of &nbsp;
+        <a
+          target="_blank"
+          href="https://dragons.fandom.com/wiki/Toothless"
+          className="text-gray-600 underline"
+        >
+          Toothless
+        </a>
+        ... So I made those images using &nbsp;
+        <a
+          target="_blank"
+          href="https://replicate.com/black-forest-labs/flux-1.1-pro-ultra"
+          className="text-gray-600 underline"
+        >
+          this
+        </a>
+        &nbsp;and &nbsp;
+        <a
+          target="_blank"
+          href="https://replicate.com/m0hc3n/toothless-images-generator"
+          className="text-gray-600 underline"
+        >
+          this too
+        </a>
+        .
+      </span>
     </div>
   );
 };

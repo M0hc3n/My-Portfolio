@@ -6,7 +6,7 @@ const InfoCard = () => {
     <div className="h-[400px] w-[260px] lg:w-[350px]">
       <Image
         alt="Mohcen's picture"
-        className=" object-contain "
+        className=" object-contain rounded-md "
         src="/images/me.jpg"
       />
     </div>

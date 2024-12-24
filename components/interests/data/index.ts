@@ -2,24 +2,24 @@ import { Interests } from "../types/interest";
 
 export const interests: Interests = [
   {
-    image: "./images/soft-eng.png",
+    image: "./images/soft-eng-th.jpg",
     title: "Software Engineering",
     description:
-      "I am passionate about software engineering, focusing on system design, algorithm optimization, and coding efficiency. I explore innovative solutions to complex problems and stay updated with the latest technologies. I am dedicated to creating robust, scalable, and maintainable software that enhances user experience and meets business goals.",
+      "I am passionate about software engineering, focusing on system design, algorithm optimization, and coding efficiency. I try to explore innovative solutions to complex problems and stay updated with the latest processes and methodologies.",
     subtitle: "Software Architecture and Development",
   },
   {
-    image: "./images/web-dev.png",
+    image: "./images/web-dev-th.jpg",
     title: "Web Development",
     description:
-      "I am passionate about web development, specializing in creating dynamic, responsive, and user-friendly websites. I focus on front-end and back-end technologies, ensuring seamless user experiences. I enjoy working with the latest web frameworks and tools to build scalable, maintainable, and visually appealing web applications.",
-    subtitle: "Full-Stack Web Development",
+      "I am passionate about web development, specializing in creating dynamic, responsive, and user-friendly websites. I focus on front-end and back-end technologies, ensuring seamless user experiences using latest web frameworks.",
+    subtitle: "Web Development",
   },
   {
-    image: "./images/ai.jpg",
+    image: "./images/ai-th.jpg",
     title: "Artificial Intelligence",
     description:
-      "I am deeply fascinated by artificial intelligence, particularly in areas like machine learning, deep learning, and natural language processing. I thrive on building intelligent systems that tackle complex challenges and enhance decision-making. Continuously exploring the latest AI trends, I aim to create innovative, efficient, and ethical AI solutions.",
+      "I am deeply fascinated by artificial intelligence, particularly in areas like machine learning, deep learning, and computer vision. I am fully focused on building intelligent systems that tackle realistic problems and enhance decision-making.",
     subtitle: "Aritificial Intelligence and Data Science",
   },
 ];

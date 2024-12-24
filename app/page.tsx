@@ -16,7 +16,7 @@ export default function Home() {
         <AboutMe />
         {/* <Projects /> */}
         <Interests />
-        <Blogs />
+        {/* <Blogs /> */}
         <Footer />
       </main>
     </NextUIProvider>
