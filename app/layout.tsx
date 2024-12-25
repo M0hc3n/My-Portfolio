@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 import { Analytics } from "@vercel/analytics/react";
+import GoogleAnalytics from "@/components/analytics/GoogleAnalytics";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,6 +26,9 @@ export default function RootLayout({
         <title>Mohcen Taher Chouireb</title>
       </head>
       <body className={inter.className}>
+        {process.env.GOOGLE_ANALYTICS && (
+          <GoogleAnalytics ga_id={process.env.GOOGLE_ANALYTICS} />
+        )}
         {children}
 
         <Analytics />
