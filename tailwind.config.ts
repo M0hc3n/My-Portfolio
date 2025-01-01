@@ -32,6 +32,7 @@ const config: Config = {
         "discord-main": "#7289da",
         "discord-hovered": "#1e2124",
         heart: "#e31b23",
+        "main-contrast": "#0a66c2",
       },
     },
   },
