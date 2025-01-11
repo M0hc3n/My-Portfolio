@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { NextUIProvider } from "@nextui-org/react";
 
 import MultiLayerParallax from "@/components/MultiLayerParallax";
@@ -11,13 +11,15 @@ import Blogs from "@/components/blogs/Blogs.index";
 export default function Home() {
   return (
     <NextUIProvider>
-      <main>
+      <main className=" bg-[#020202]">
         <MultiLayerParallax />
-        <AboutMe />
-        {/* <Projects /> */}
-        <Interests />
-        {/* <Blogs /> */}
-        <Footer />
+        <div className="max-w-[1200px] mx-auto">
+          <AboutMe />
+          {/* <Projects /> */}
+          <Interests />
+          {/* <Blogs /> */}
+          <Footer />
+        </div>
       </main>
     </NextUIProvider>
   );
