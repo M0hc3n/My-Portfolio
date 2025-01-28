@@ -23,7 +23,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       <p
         style={{
           color: "white",
-          fontSize: "1.3rem",
+          fontSize: "1.1rem",
           lineHeight: "1.5",
           // marginTop: "0.5em",
           // marginBottom: "0.5em",
@@ -33,12 +33,12 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       </p>
     ),
     li: ({ children }) => (
-      <li style={{ color: "white", fontSize: "1.3rem", lineHeight: "1.5" }}>
+      <li style={{ color: "white", fontSize: "1.1rem", lineHeight: "1.5" }}>
         {children}
       </li>
     ),
     ul: ({ children }) => (
-      <ul style={{ color: "white", fontSize: "1.3rem", lineHeight: "1.5" }}>
+      <ul style={{ color: "white", fontSize: "1.1rem", lineHeight: "1.5" }}>
         {children}
       </ul>
     ),
@@ -48,7 +48,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
         href={href}
         style={{
           color: "#0a66c2",
-          fontSize: "1.3rem",
+          fontSize: "1.1rem",
           lineHeight: "1.5",
         }}
         target="_blank"

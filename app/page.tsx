@@ -17,8 +17,10 @@ export default function Home() {
           <AboutMe />
           {/* <Projects /> */}
           <Interests />
-          {/* <Blogs /> */}
+          <Blogs />
+          <div className="px-[30px] w-full lg:w-[1000px] lg:px-0 mx-auto">
           <Footer />
+        </div>
         </div>
       </main>
     </NextUIProvider>
