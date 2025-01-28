@@ -8,8 +8,8 @@ const HeroSubTitle = ({
   date: string;
 }) => {
   return (
-    <section className="w-[800px] flex flex-col gap-2">
-      <h4 className=" text-[1.5rem] font-bold text-white  tracking-[-0.02em] leading-[1.25] mt-[1.5em] font-sans">
+    <section className="w-[300px] lg:w-[800px] flex flex-col gap-2">
+      <h4 className="text-[1rem] lg:text-[1.5rem] font-bold text-white  tracking-[-0.02em] leading-[1.25] mt-[1.5em] font-sans">
         {subtitle}{" "}
       </h4>
 

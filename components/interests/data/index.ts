@@ -6,7 +6,7 @@ export const interests: Interests = [
     title: "Software Engineering",
     description:
       "I am passionate about software engineering, focusing on system design, algorithm optimization, and coding efficiency. I try to explore innovative solutions to complex problems and stay updated with the latest processes and methodologies.",
-    subtitle: "Software Architecture and Development",
+    subtitle: "Software Architecture & Dev",
   },
   {
     image: "./images/web-dev-th.jpg",
@@ -20,6 +20,6 @@ export const interests: Interests = [
     title: "Artificial Intelligence",
     description:
       "I am deeply fascinated by artificial intelligence, particularly in areas like machine learning, deep learning, and computer vision. I am fully focused on building intelligent systems that tackle realistic problems and enhance decision-making.",
-    subtitle: "Aritificial Intelligence and Data Science",
+    subtitle: "AI & Data Science",
   },
 ];

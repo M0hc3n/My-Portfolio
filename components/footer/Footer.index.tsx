@@ -12,9 +12,9 @@ const cedarvilleFT = Cedarville_Cursive({
 
 const Footer = () => {
   return (
-    <div className="bg-black flex flex-col gap-[30px] py-[30px] lg:py-[50px] px-[30px] lg:px-[50px] 2xl:px-[100px]">
+    <div className="bg-black flex flex-col gap-[30px] py-[30px] lg:py-[50px]">
       <p
-        className={`text-white text-left font-bold text-[24px] font-montserrat`}
+        className={`text-white text-left font-bold text-[18px] lg:text-[24px] font-montserrat`}
       >
         Share interests? Open to collaborate? Contact me:
       </p>
@@ -31,15 +31,15 @@ const Footer = () => {
         ))}
       </div>
 
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center gap-[20px]">
         <p
-          className={`text-white ${cedarvilleFT.className} text-left font-bold text-[24px] font-montserrat`}
+          className={`text-white ${cedarvilleFT.className} text-left font-bold text-[18px] lg:text-[24px] font-montserrat`}
         >
           Remember to enjoy the Ride !
         </p>
-        <p className=" text-gray-600   text-left text-[18px] font-montserrat">
-          made with <i className="text-heart">&#10084;</i>
-          {"   by Me"}
+        <p className=" text-gray-600   text-center text-[14px] lg:text-[18px] font-montserrat">
+          made with <i className="text-heart pr-1">&#10084;</i>
+          {"   by me"}
         </p>
       </div>
     </div>

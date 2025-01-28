@@ -16,12 +16,12 @@ export const socialMedia: SocialMedias = [
     className:
       "bg-github-main max-w-fit text-white text-[20px] py-[20px] px-[10px] hover:bg-github-hovered",
   },
-  {
-    url: "mailto:mohcen.taher.chouireb@gmail.com",
-    icon: <FontAwesomeIcon className="text-[20px]" icon={faGoogle} />,
-    className:
-      "bg-google-main max-w-fit text-white text-[20px] py-[20px] px-[10px] hover:bg-google-hovered",
-  },
+  // {
+  //   url: "mailto:mohcen.taher.chouireb@gmail.com",
+  //   icon: <FontAwesomeIcon className="text-[20px]" icon={faGoogle} />,
+  //   className:
+  //     "bg-google-main max-w-fit text-white text-[20px] py-[20px] px-[10px] hover:bg-google-hovered",
+  // },
   {
     url: "https://x.com/tahermohcen",
     icon: <FontAwesomeIcon className="text-[20px]" icon={faXTwitter} />,
@@ -34,10 +34,10 @@ export const socialMedia: SocialMedias = [
     className:
       "bg-linkedin-main max-w-fit text-white text-[20px] py-[20px] px-[10px] hover:bg-linkedin-hovered",
   },
-  {
-    url: "https://discordapp.com/users/927125505570910239",
-    icon: <FontAwesomeIcon className="text-[20px]" icon={faDiscord} />,
-    className:
-      "bg-discord-main max-w-fit text-white text-[20px] py-[20px] px-[10px] hover:bg-discord-hovered",
-  },
+  // {
+  //   url: "https://discordapp.com/users/927125505570910239",
+  //   icon: <FontAwesomeIcon className="text-[20px]" icon={faDiscord} />,
+  //   className:
+  //     "bg-discord-main max-w-fit text-white text-[20px] py-[20px] px-[10px] hover:bg-discord-hovered",
+  // },
 ];
