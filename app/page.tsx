@@ -19,8 +19,8 @@ export default function Home() {
           <Interests />
           {/* <Blogs /> */}
           <div className="px-[30px] w-full lg:w-[1000px] lg:px-0 mx-auto">
-          <Footer />
-        </div>
+            <Footer />
+          </div>
         </div>
       </main>
     </NextUIProvider>

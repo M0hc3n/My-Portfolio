@@ -13,11 +13,11 @@ const AboutMe = () => {
         <p className="text-white text-left lg:leading-8 pt-[10px] text-[18px] font-montserrat   ">
           Salam, I’m Mohcen Taher Chouireb, a Muslim from Algeria, and a person
           with a deep passion for computers. I spend most of my time either
-          reading about trends in CS or writing incomprehensible text about them
+          reading about trends in CS or writing incomprehensible text on them
           (my mom’s definition of coding). <br /> I specialize in developing
           high-quality websites using various technologies and solving
           real-world problems in my home country (and abroad) using magic! (my
-          mom’s definition of AI 🙃). Currently, I am a second-year CS student
+          mom’s definition of AI 🙃). Currently, I am a Final Year student
           at &nbsp;
           <a
             target="_blank"
@@ -29,7 +29,7 @@ const AboutMe = () => {
           </a>{" "}
           .
           <br />
-          In my spare time, I like to read about history and geopolitics. I am
+          In my spare time, I like to read/listen about history and geopolitics. I am
           deeply fascinated by how historical contexts shape the world we live
           in today!
         </p>
