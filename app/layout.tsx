@@ -9,7 +9,25 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Mohcen Taher Chouireb",
-  description: "Mohcen Taher Chouireb's portfolio",
+  description: "Portfolio of Mohcen Taher Chouireb",
+  openGraph: {
+    title: "Mohcen Taher Chouireb",
+    description: "Portfolio of Mohcen Taher Chouireb",
+    images: ["/images/me.jpg"],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Mohcen Taher Chouireb",
+    description: "Portfolio of Mohcen Taher Chouireb",
+    images: ["/images/me.jpg"],
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
+  alternates: {
+    canonical: "https://yourdomain.com/",
+  },
 };
 
 export default function RootLayout({
