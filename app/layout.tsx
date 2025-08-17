@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     canonical: "https://m0hc3n.vercel.app/",
   },
   verification: {
-    google: "9YhUH6dnyjTXrI4h3YJM7dWwBZyRBshSRmWmUZTiYis", // Add Google Search Console verification
+    google: "dlR2tPo3_hnzS5IOnYvIoYR0Y1T6wpmH7ZGG5Il9rlI", // Add Google Search Console verification
   },
 };
 
