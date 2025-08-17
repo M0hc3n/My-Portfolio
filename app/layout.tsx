@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     description:
       "Explore innovative AI projects, web development solutions, and technical insights from a passionate software engineer.",
     images: ["/images/me.jpg"],
-    creator: "@m0hc3n", // Add your Twitter handle
+    creator: "@m0hc3n",
   },
   robots: {
     index: true,
@@ -60,13 +60,13 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
-    apple: "/apple-touch-icon.png", // Add if you have one
+    apple: "/apple-touch-icon.png",
   },
   alternates: {
     canonical: "https://m0hc3n.vercel.app/",
   },
   verification: {
-    google: "dlR2tPo3_hnzS5IOnYvIoYR0Y1T6wpmH7ZGG5Il9rlI", // Add Google Search Console verification
+    google: "dlR2tPo3_hnzS5IOnYvIoYR0Y1T6wpmH7ZGG5Il9rlI",
   },
 };
 
@@ -75,20 +75,46 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Mohcen Taher Chouireb",
+    jobTitle: "Software Engineer & AI Developer",
+    url: "https://m0hc3n.vercel.app/",
+    image: "https://m0hc3n.vercel.app/images/me.jpg",
+    sameAs: [
+      "https://twitter.com/m0hc3n",
+      "https://github.com/m0hc3n",
+      "https://linkedin.com/in/mohcen-taher-chouireb",
+    ],
+    knowsAbout: [
+      "Software Engineering",
+      "AI Development",
+      "Web Development",
+      "Machine Learning",
+    ],
+    description:
+      "Passionate software engineer & AI developer specializing in web development, machine learning, and innovative tech solutions.",
+  };
+
   return (
     <html lang="en">
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Mohcen Taher Chouireb</title>
+        <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(structuredData),
+          }}
+        />
       </head>
       <body className={inter.className}>
         {process.env.GOOGLE_ANALYTICS && (
           <GoogleAnalytics ga_id={process.env.GOOGLE_ANALYTICS} />
         )}
         {children}
-
         <Analytics />
       </body>
     </html>
