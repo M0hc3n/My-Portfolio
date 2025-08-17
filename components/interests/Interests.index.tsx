@@ -4,7 +4,7 @@ import InterestCard from "./Card/InterestCard";
 
 const Interests = () => {
   return (
-    <div className="w-full bg-[#020202] py-[30px] px-[30px] lg:px-[50px] 2xl:px-[100px] flex flex-col justify-center  gap-[30px]">
+    <div className="w-full bg-bg__main py-[30px] px-[30px] lg:px-[50px] 2xl:px-[100px] flex flex-col justify-center  gap-[30px]">
       <h1 className="text-white text-left text-[32px] font-bold font-montserrat">
         My Interests
       </h1>

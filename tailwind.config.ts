@@ -21,6 +21,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
+        "bg__main": "#110e3c",
         "github-main": "#2b3137",
         "github-hovered": "#24292e",
         "twitter-main": "#14171a",

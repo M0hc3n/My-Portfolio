@@ -38,7 +38,7 @@ export default function Home({ params }: { params: { slug: string } }) {
   if (loading || !blogData) {
     return (
       <NextUIProvider>
-        <main className=" flex flex-col items-center justify-center bg-[#020202] h-screen w-screen lg:px-[100px] lg:py-[60px]  ">
+        <main className=" flex flex-col items-center justify-center bg-bg__main h-screen w-screen lg:px-[100px] lg:py-[60px]  ">
           <Spinner size="md" />
         </main>
       </NextUIProvider>
@@ -47,7 +47,7 @@ export default function Home({ params }: { params: { slug: string } }) {
 
   return (
     <NextUIProvider>
-      <main className=" flex flex-col items-center bg-[#020202] lg:px-[100px] lg:py-[60px]  ">
+      <main className=" flex flex-col items-center bg-bg__main lg:px-[100px] lg:py-[60px]  ">
         <Navbar />
         <HeroTitle title={blogData?.title} />
 
