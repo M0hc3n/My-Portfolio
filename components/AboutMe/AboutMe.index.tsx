@@ -3,7 +3,7 @@ import InfoCard from "./InfoCard";
 
 const AboutMe = () => {
   return (
-    <div className=" bg-bg__main pb-[30px] px-[30px] lg:px-[50px] 2xl:px-[100px] flex flex-col justify-center  gap-[30px]">
+    <div className="pb-[30px] px-[30px] lg:px-[50px] 2xl:px-[100px] flex flex-col justify-center  gap-[30px]">
       <h1 className="text-white text-left pt-[30px] text-[32px] font-bold font-montserrat">
         About Me
       </h1>

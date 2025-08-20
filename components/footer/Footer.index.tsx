@@ -12,7 +12,7 @@ const cedarvilleFT = Cedarville_Cursive({
 
 const Footer = () => {
   return (
-    <div className="bg-bg__main flex flex-col gap-[30px] py-[30px] lg:py-[50px]">
+    <div className="flex flex-col gap-[30px] py-[30px] lg:py-[50px]">
       <p
         className={`text-white text-left font-bold text-[18px] lg:text-[24px] font-montserrat`}
       >
