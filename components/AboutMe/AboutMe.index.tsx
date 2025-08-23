@@ -16,8 +16,8 @@ const AboutMe = () => {
           reading about trends in CS or writing incomprehensible text on them
           (my mom’s definition of coding). <br /> I specialize in developing
           high-quality websites using various technologies and solving
-          real-world problems in my home country (and abroad) using magic! (my
-          mom’s definition of AI 🙃). Currently, I am a Final Year student
+          real-world problems in my home country (and abroad) using magic!
+          (mom’s interpretation of AI 🙃). Currently, I am a Final Year student
           at &nbsp;
           <a
             target="_blank"
@@ -29,9 +29,9 @@ const AboutMe = () => {
           </a>{" "}
           .
           <br />
-          In my spare time, I like to read/listen about history and geopolitics. I am
-          deeply fascinated by how historical contexts shape the world we live
-          in today!
+          In my spare time, I like to read/listen about history and geopolitics.
+          I am deeply fascinated by how historical contexts shape the world we
+          live in today!
         </p>
       </div>
     </div>
