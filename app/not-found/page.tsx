@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function NotFoundPage() {
   return (
     <NextUIProvider>
-      <div className="min-h-screen flex flex-col items-center justify-center lg:justify-start  p-4 text-center relative overflow-hidden bg-[#020202] ">
+      <div className="min-h-screen flex flex-col items-center justify-center lg:justify-start  p-4 text-center relative overflow-hidden bg-bg__main ">
         <h1 className="text-[100px] lg:text-[350px] font-bold text-github-main tracking-wider  ">
           4.0.4
         </h1>

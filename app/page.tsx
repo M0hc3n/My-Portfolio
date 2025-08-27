@@ -11,9 +11,9 @@ import Blogs from "@/components/blogs/Blogs.index";
 export default function Home() {
   return (
     <NextUIProvider>
-      <main className=" bg-[#020202]">
+      <main className="bg-gradient-to-b from-bg__main via-[#0c1736] to-[#050812]">
         <MultiLayerParallax />
-        <div className="max-w-[1200px] mx-auto">
+        <div className="max-w-[1200px] mx-auto ">
           <AboutMe />
           {/* <Projects /> */}
           <Interests />

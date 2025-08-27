@@ -17,14 +17,17 @@ export default function MultiLayerParallax() {
     offset: ["start start", "end start"],
   });
   const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
-  const textY = useTransform(scrollYProgress, [0, 1], ["-50%", "100%"]);
+  const textY = useTransform(scrollYProgress, [0, 1], ["50%", "800%"]);
 
   return (
     <div
       ref={ref}
-      className="w-full h-screen overflow-hidden relative flex justify-center items-center  "
+      className="w-full h-screen overflow-hidden relative flex justify-center items-center pb-[-20px] "
     >
       <motion.h1
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1, ease: "easeInOut" }}
         style={{ y: textY }}
         className={`text-center flex px-[20px] xl:mb-[50px] flex-col gap-[10px] font-bold text-white text-4xl md:text-[45px] relative z-10 ${cedarvilleFT.className}`}
       >
