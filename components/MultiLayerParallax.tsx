@@ -42,7 +42,7 @@ export default function MultiLayerParallax() {
       <motion.div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: `url(/images/new-full-image_.png)`,
+          backgroundImage: `url(/images/full-image.png)`,
           backgroundPosition: "bottom",
           backgroundSize: "cover",
           y: backgroundY,
@@ -51,7 +51,7 @@ export default function MultiLayerParallax() {
       <div
         className="absolute inset-0 z-20"
         style={{
-          backgroundImage: `url(/images/new-part-image_.png)`,
+          backgroundImage: `url(/images/part-image.png)`,
           backgroundPosition: "bottom",
           backgroundSize: "cover",
         }}
