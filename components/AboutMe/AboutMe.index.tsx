@@ -1,5 +1,7 @@
 import React from "react";
 import InfoCard from "./InfoCard";
+import QantraLogo from "./QantraLogo";
+import Link from "next/link";
 
 const AboutMe = () => {
   return (
@@ -10,7 +12,14 @@ const AboutMe = () => {
       <div className=" flex flex-col  gap-[20px] lg:gap[70px] ">
         <InfoCard />
 
-        <p className="text-white text-left lg:leading-8 pt-[10px] text-[18px] font-montserrat   ">
+        <div className="flex items-center gap-3 mt-[-30px] text-white text-[18px] font-montserrat">
+          <span className="italic text-gray-600">Currently @</span>
+          <Link href={"https://qantra.ai/"} target="_blank">
+            <QantraLogo />
+          </Link>
+        </div>
+
+        <p className="text-white text-left lg:leading-8 mt-[-15px] text-[18px] font-montserrat   ">
           Salam, I’m Mohcen Taher Chouireb, a Muslim from Algeria, and a person
           with a deep passion for computers. I spend most of my time either
           reading about trends in CS or writing incomprehensible text on them
