@@ -1,4 +1,4 @@
-import { Link } from "@nextui-org/react";
+import { Link } from "@heroui/react";
 import React from "react";
 
 const CustomLink = ({ href, text }: { href: string; text: string }) => {

@@ -1,7 +1,6 @@
 import React from "react";
 import { socialMedia } from "./data";
 import IconButton from "../utils/IconButton";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Cedarville_Cursive } from "next/font/google";
 import Link from "next/link";
 
