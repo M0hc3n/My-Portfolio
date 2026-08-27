@@ -1,6 +1,7 @@
 import React from "react";
 import InfoCard from "./InfoCard";
-import QantraLogo from "./QantraLogo";
+import FollosoftLogo from "./FollosoftLogo";
+import BetterfitLogo from "./BetterfitLogo";
 import Link from "next/link";
 
 const AboutMe = () => {
@@ -12,10 +13,24 @@ const AboutMe = () => {
       <div className=" flex flex-col  gap-[20px] lg:gap[70px] ">
         <InfoCard />
 
-        <div className="flex items-center gap-3 mt-[-30px] text-white text-[18px] font-montserrat">
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mt-[-30px] text-white text-[18px] font-montserrat">
           <span className="italic text-gray-600">Currently @</span>
-          <Link href={"https://qantra.ai/"} target="_blank">
-            <QantraLogo />
+          <Link
+            href={"https://follosoft.com/en"}
+            target="_blank"
+            rel="noopener"
+            aria-label="Follosoft"
+          >
+            <FollosoftLogo />
+          </Link>
+          <span className="italic text-gray-600">via</span>
+          <Link
+            href={"https://www.betterfit.ca/"}
+            target="_blank"
+            rel="noopener"
+            aria-label="Betterfit"
+          >
+            <BetterfitLogo />
           </Link>
         </div>
 
