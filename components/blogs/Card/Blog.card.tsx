@@ -1,6 +1,6 @@
 import { encodeSlug } from "@/components/blog/router";
 import { Blog } from "@/components/blog/router/interfaces";
-import { Image } from "@nextui-org/react";
+import { Image } from "@heroui/react";
 import Link from "next/link";
 import React from "react";
 

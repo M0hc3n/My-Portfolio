@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardFooter, Image, Button } from "@nextui-org/react";
+import { Card, CardFooter, Image, Button } from "@heroui/react";
 
 const InfoCard = () => {
   return (
@@ -9,7 +9,7 @@ const InfoCard = () => {
         className=" object-contain rounded-xl "
         height={120}
         width={120}
-        src="/images/me.jpg"
+        src="/images/new_me.png"
       />
     </div>
   );

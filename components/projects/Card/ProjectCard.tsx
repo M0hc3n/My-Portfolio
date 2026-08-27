@@ -1,6 +1,6 @@
 import React from "react";
 import { Project } from "../types/project";
-import { Card, CardFooter, Image, Button } from "@nextui-org/react";
+import { Card, CardFooter, Image, Button } from "@heroui/react";
 import Link from "next/link";
 
 const ProjectCard = ({ project }: { project: Project }) => {

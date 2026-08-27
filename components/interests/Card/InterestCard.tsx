@@ -1,6 +1,6 @@
 import React from "react";
 import { Interest } from "../types/interest";
-import { Image } from "@nextui-org/react";
+import { Image } from "@heroui/react";
 
 const InterestCard = ({ interest }: { interest: Interest }) => {
   return (
