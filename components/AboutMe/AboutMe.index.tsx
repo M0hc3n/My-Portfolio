@@ -19,20 +19,22 @@ const AboutMe = () => {
             href={"https://follosoft.com/en"}
             target="_blank"
             rel="noopener"
-            className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-white transition duration-200 hover:-translate-y-0.5 hover:border-white/25 hover:bg-white/10"
+            aria-label="Follosoft"
+            title="Follosoft"
+            className="inline-flex items-center justify-center rounded-full border border-white/10 bg-white/5 p-2.5 text-white transition duration-200 hover:-translate-y-0.5 hover:border-white/25 hover:bg-white/10"
           >
-            <FollosoftLogo className="h-5 w-5" />
-            <span>Follosoft</span>
+            <FollosoftLogo className="h-6 w-6" />
           </Link>
           <span className="italic text-gray-400">via</span>
           <Link
             href={"https://www.betterfit.ca/"}
             target="_blank"
             rel="noopener"
-            className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-white transition duration-200 hover:-translate-y-0.5 hover:border-white/25 hover:bg-white/10"
+            aria-label="Betterfit"
+            title="Betterfit"
+            className="inline-flex items-center justify-center rounded-full border border-white/10 bg-white/5 p-2.5 text-white transition duration-200 hover:-translate-y-0.5 hover:border-white/25 hover:bg-white/10"
           >
-            <BetterfitLogo className="h-5 w-5" />
-            <span>Betterfit</span>
+            <BetterfitLogo className="h-6 w-6" />
           </Link>
         </div>
 
