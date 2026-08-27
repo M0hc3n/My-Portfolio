@@ -13,7 +13,7 @@ const AboutMe = () => {
       <div className=" flex flex-col  gap-[20px] lg:gap[70px] ">
         <InfoCard />
 
-        <div className="flex flex-wrap items-center gap-x-3 gap-y-2 mt-[-30px] text-[18px] font-montserrat">
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-[18px] font-montserrat">
           <span className="italic text-gray-400">Currently @</span>
           <Link
             href={"https://follosoft.com/en"}
@@ -36,11 +36,10 @@ const AboutMe = () => {
           </Link>
         </div>
 
-        <p className="text-white text-left lg:leading-8 mt-[-15px] text-[18px] font-montserrat   ">
-          Salam, I’m Mohcen Taher Chouireb, from Algeria, a guy with a deep passion
-          for computers. I spend most of my time either reading about trends in
-          CS or writing incomprehensible text about them (my mom’s definition of
-          coding).
+        <p className="text-white text-left lg:leading-8 text-[18px] font-montserrat">
+          Salam, I’m Mohcen Taher Chouireb, from Algeria, a guy with a deep
+          passion for computers. I spend most of my time either reading about
+          trends in CS or turning them into something that actually runs.
           <br />
           These days I build high-quality websites with all sorts of
           technologies, and I use a bit of magic (my mom’s interpretation of AI
@@ -50,7 +49,7 @@ const AboutMe = () => {
             target="_blank"
             rel="noopener"
             href="https://www.ensia.edu.dz/"
-            className="text-gray-600 underline"
+            className="text-gray-400 underline"
           >
             ENSIA
           </a>
