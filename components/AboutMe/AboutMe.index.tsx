@@ -20,14 +20,15 @@ const AboutMe = () => {
         </div>
 
         <p className="text-white text-left lg:leading-8 mt-[-15px] text-[18px] font-montserrat   ">
-          Salam, I’m Mohcen Taher Chouireb, a Muslim from Algeria, and a person
-          with a deep passion for computers. I spend most of my time either
-          reading about trends in CS or writing incomprehensible text on them
-          (my mom’s definition of coding). <br /> I specialize in developing
-          high-quality websites using various technologies and solving
-          real-world problems in my home country (and abroad) using magic!
-          (mom’s interpretation of AI 🙃). Currently, I am a Final Year student
-          at &nbsp;
+          Salam, I’m Mohcen Taher Chouireb, from Algeria, with a deep passion
+          for computers. I spend most of my time either reading about trends in
+          CS or writing incomprehensible text about them (my mom’s definition of
+          coding).
+          <br />
+          These days I build high-quality websites with all sorts of
+          technologies, and I use a bit of magic (my mom’s interpretation of AI
+          🙃) to solve real-world problems, both at home in Algeria and abroad. I
+          recently wrapped up five years at{" "}
           <a
             target="_blank"
             rel="noopener"
@@ -35,12 +36,12 @@ const AboutMe = () => {
             className="text-gray-600 underline"
           >
             ENSIA
-          </a>{" "}
-          .
+          </a>
+          , the national school for AI, as part of its very first promo.
           <br />
-          In my spare time, I like to read/listen about history and geopolitics.
-          I am deeply fascinated by how historical contexts shape the world we
-          live in today!
+          Off the keyboard, I’m usually reading or listening about history,
+          geopolitics, and art. I’m fascinated by how the past quietly shapes
+          the world we live in today.
         </p>
       </div>
     </div>
