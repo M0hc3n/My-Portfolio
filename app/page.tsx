@@ -16,7 +16,7 @@ export default function Home() {
         <div className="max-w-[1200px] mx-auto ">
           <AboutMe />
           {/* <Projects /> */}
-          <Interests />
+          {/* <Interests /> */}
           {/* <Blogs /> */}
           <div className="px-[30px] w-full lg:w-[1000px] lg:px-0 mx-auto">
             <Footer />
