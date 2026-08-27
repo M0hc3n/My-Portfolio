@@ -13,29 +13,31 @@ const AboutMe = () => {
       <div className=" flex flex-col  gap-[20px] lg:gap[70px] ">
         <InfoCard />
 
-        <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mt-[-30px] text-white text-[18px] font-montserrat">
-          <span className="italic text-gray-600">Currently @</span>
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-2 mt-[-30px] text-[18px] font-montserrat">
+          <span className="italic text-gray-400">Currently @</span>
           <Link
             href={"https://follosoft.com/en"}
             target="_blank"
             rel="noopener"
-            aria-label="Follosoft"
+            className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-white transition duration-200 hover:-translate-y-0.5 hover:border-white/25 hover:bg-white/10"
           >
-            <FollosoftLogo />
+            <FollosoftLogo className="h-5 w-5" />
+            <span>Follosoft</span>
           </Link>
-          <span className="italic text-gray-600">via</span>
+          <span className="italic text-gray-400">via</span>
           <Link
             href={"https://www.betterfit.ca/"}
             target="_blank"
             rel="noopener"
-            aria-label="Betterfit"
+            className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-white transition duration-200 hover:-translate-y-0.5 hover:border-white/25 hover:bg-white/10"
           >
-            <BetterfitLogo />
+            <BetterfitLogo className="h-5 w-5" />
+            <span>Betterfit</span>
           </Link>
         </div>
 
         <p className="text-white text-left lg:leading-8 mt-[-15px] text-[18px] font-montserrat   ">
-          Salam, I’m Mohcen Taher Chouireb, from Algeria, with a deep passion
+          Salam, I’m Mohcen Taher Chouireb, from Algeria, a guy with a deep passion
           for computers. I spend most of my time either reading about trends in
           CS or writing incomprehensible text about them (my mom’s definition of
           coding).

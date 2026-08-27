@@ -3,14 +3,14 @@ import * as React from "react";
 // Source: https://www.betterfit.ca/icon.svg -- the mark used as their favicon.
 // Their black fills are swapped for currentColor so the mark takes its colour
 // from the surrounding text.
-const BetterfitLogo = () => (
+const BetterfitLogo = ({ className = "h-8 w-8 text-white" }: { className?: string }) => (
   <svg
-    className="h-8 w-8 text-white"
+    className={className}
     xmlns="http://www.w3.org/2000/svg"
     viewBox="-2 -1 32 31"
     fill="none"
-    role="img"
-    aria-label="Betterfit"
+    aria-hidden="true"
+    focusable="false"
   >
     <path
       fill="currentColor"

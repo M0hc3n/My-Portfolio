@@ -7,13 +7,13 @@ import * as React from "react";
 // (/images/logos/Follosoft-Logo-White-Green.svg), placed on the navy disc with
 // one shared scale, matched to the favicon's measured proportions -- pair width
 // 23/32 of the disc and the F/S overlap 2/23 of that.
-const FollosoftLogo = () => (
+const FollosoftLogo = ({ className = "h-8 w-8" }: { className?: string }) => (
   <svg
-    className="h-8 w-8"
+    className={className}
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 64 64"
-    role="img"
-    aria-label="Follosoft"
+    aria-hidden="true"
+    focusable="false"
   >
     <circle cx="32" cy="32" r="32" fill="#021F47" />
     <g transform="translate(1.94 9.13) scale(0.4739)">
