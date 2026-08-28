@@ -2,12 +2,16 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import GoogleAnalytics from "@/components/analytics/GoogleAnalytics";
+
+import { SITE_URL } from "@/lib/site";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "Mohcen Taher Chouireb | Software Engineer & AI Developer",
   description:
     "Passionate software engineer & AI developer specializing in web development, machine learning, and innovative tech solutions. View my projects, technical blogs, and expertise.",
@@ -34,7 +38,7 @@ export const metadata: Metadata = {
       },
     ],
     type: "website",
-    url: "https://m0hc3n.vercel.app/",
+    url: SITE_URL,
     siteName: "Mohcen Taher Chouireb Portfolio",
     locale: "en_US",
   },
@@ -63,7 +67,7 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   alternates: {
-    canonical: "https://m0hc3n.vercel.app/",
+    canonical: SITE_URL,
   },
   verification: {
     google: "dlR2tPo3_hnzS5IOnYvIoYR0Y1T6wpmH7ZGG5Il9rlI",
@@ -80,8 +84,8 @@ export default function RootLayout({
     "@type": "Person",
     name: "Mohcen Taher Chouireb",
     jobTitle: "Software Engineer & AI Developer",
-    url: "https://m0hc3n.vercel.app/",
-    image: "https://m0hc3n.vercel.app/images/me.jpg",
+    url: SITE_URL,
+    image: `${SITE_URL}/images/me.jpg`,
     sameAs: [
       "https://twitter.com/m0hc3n",
       "https://github.com/m0hc3n",
@@ -116,6 +120,7 @@ export default function RootLayout({
         )}
         {children}
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

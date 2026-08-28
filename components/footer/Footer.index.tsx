@@ -4,6 +4,8 @@ import IconButton from "../utils/IconButton";
 import { Cedarville_Cursive } from "next/font/google";
 import Link from "next/link";
 
+import { trackOutbound } from "@/components/analytics/track";
+
 const cedarvilleFT = Cedarville_Cursive({
   subsets: ["latin"],
   weight: "400",
@@ -20,7 +22,12 @@ const Footer = () => {
 
       <div className="flex gap-[20px]">
         {socialMedia.map((singleSM) => (
-          <Link key={singleSM.url} target="_blank" href={singleSM.url}>
+          <Link
+            key={singleSM.url}
+            target="_blank"
+            href={singleSM.url}
+            onClick={() => trackOutbound(singleSM.label, singleSM.url)}
+          >
             <IconButton
               label=""
               startIcon={singleSM.icon}

@@ -12,6 +12,7 @@ import {
 export const socialMedia: SocialMedias = [
   {
     url: "https://github.com/M0hc3n",
+    label: "github",
     icon: <FontAwesomeIcon className="text-[20px]" icon={faGithub} />,
     className:
       "bg-github-main max-w-fit text-white text-[20px] py-[20px] px-[10px] hover:bg-github-hovered",
@@ -24,12 +25,14 @@ export const socialMedia: SocialMedias = [
   // },
   {
     url: "https://x.com/tahermohcen",
+    label: "x",
     icon: <FontAwesomeIcon className="text-[20px]" icon={faXTwitter} />,
     className:
       "bg-twitter-main max-w-fit text-white text-[20px] py-[20px] px-[10px] hover:bg-twitter-hovered",
   },
   {
     url: "https://www.linkedin.com/in/mohcen-taher-chouireb-76aa32224/",
+    label: "linkedin",
     icon: <FontAwesomeIcon className="text-[20px]" icon={faLinkedin} />,
     className:
       "bg-linkedin-main max-w-fit text-white text-[20px] py-[20px] px-[10px] hover:bg-linkedin-hovered",

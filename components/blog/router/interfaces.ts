@@ -1,10 +1,7 @@
 import React from "react";
 
-export interface Blog {
-  title: string;
-  description: string;
-  date: string;
-  slug: string;
-  image: string;
+import { BlogMeta } from "./blogs.meta";
+
+export interface Blog extends BlogMeta {
   content: React.ReactNode;
 }

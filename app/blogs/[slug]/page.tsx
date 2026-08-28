@@ -12,6 +12,7 @@ import { Spinner } from "@heroui/react";
 import HeroTitle from "@/components/blog/shared/HeroTitle";
 import HeroImage from "@/components/blog/shared/HeroImage";
 import HeroSubTitle from "@/components/blog/shared/HeroSubTitle";
+import ReadTracker from "@/components/blog/ReadTracker";
 
 export default function Home({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = use(params);
@@ -41,6 +42,7 @@ export default function Home({ params }: { params: Promise<{ slug: string }> }) 
   return (
     <HeroUIProvider>
       <main className=" flex flex-col items-center bg-bg__main lg:px-[100px] lg:py-[60px]  ">
+        <ReadTracker slug={blogData.slug} title={blogData.title} />
         <Navbar />
         <HeroTitle title={blogData?.title} />
 
