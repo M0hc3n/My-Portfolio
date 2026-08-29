@@ -11,9 +11,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        cursive: ["Cedarville Cursive", "cursive"],
-        montserrat: ["Montserrat", "sans-serif"],
-        karla: ["Karla", "sans-serif"],
+        // fed by next/font in app/layout.tsx
+        montserrat: ["var(--font-montserrat)", "sans-serif"],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
