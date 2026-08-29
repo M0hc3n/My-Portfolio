@@ -4,6 +4,8 @@ import FollosoftLogo from "./FollosoftLogo";
 import BetterfitLogo from "./BetterfitLogo";
 import Link from "next/link";
 
+import { trackOutbound } from "@/components/analytics/track";
+
 const AboutMe = () => {
   return (
     <div className="pb-[30px] px-[30px] lg:px-[50px] 2xl:px-[100px] flex flex-col justify-center  gap-[30px]">
@@ -18,6 +20,7 @@ const AboutMe = () => {
           <Link
             href={"https://follosoft.com/en"}
             target="_blank"
+            onClick={() => trackOutbound("employer_follosoft", "https://follosoft.com/en")}
             rel="noopener"
             aria-label="Follosoft"
             title="Follosoft"
@@ -29,6 +32,7 @@ const AboutMe = () => {
           <Link
             href={"https://www.betterfit.ca/"}
             target="_blank"
+            onClick={() => trackOutbound("employer_betterfit", "https://www.betterfit.ca/")}
             rel="noopener"
             aria-label="Betterfit"
             title="Betterfit"
@@ -51,6 +55,7 @@ const AboutMe = () => {
             target="_blank"
             rel="noopener"
             href="https://www.ensia.edu.dz/"
+            onClick={() => trackOutbound("ensia", "https://www.ensia.edu.dz/")}
             className="text-gray-400 underline"
           >
             ENSIA

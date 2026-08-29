@@ -1,5 +1,6 @@
 export type SocialMedia = {
     url: string;
+    label: string;
     icon: React.ReactNode;
     className: string;
 }
