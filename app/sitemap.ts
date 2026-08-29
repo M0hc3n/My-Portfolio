@@ -1,23 +1,20 @@
 import type { MetadataRoute } from "next";
 
-import { blogsMeta } from "@/components/blog/router/blogs.meta";
-import { encodeSlug } from "@/components/blog/router";
 import { SITE_URL } from "@/lib/site";
 
 /**
- * Generated from the blogs list so a new post can never be missing from the
- * sitemap. This replaces the old public/sitemap.xml, which was hand-written,
- * had never been updated with any post, and advertised a /blogs URL that did
- * not exist as a route.
+ * Replaces the old hand-written public/sitemap.xml, which advertised a /blogs
+ * URL that had no route behind it and returned 404 to anything that followed
+ * it.
+ *
+ * The blog is intentionally unpublished: there is no /blogs index, and posts
+ * are not listed here, so nothing advertises them. The post routes still
+ * resolve by direct URL. If the blog is published later, map over the posts
+ * list to add their URLs -- note that importing blogs.tsx here pulls in MDX
+ * content and the client components it renders, which fails outside a React
+ * runtime, so the slugs would need to come from a JSX-free module.
  */
 export default function sitemap(): MetadataRoute.Sitemap {
-  const posts: MetadataRoute.Sitemap = blogsMeta.map((blog) => ({
-    url: `${SITE_URL}/blogs/${encodeURIComponent(encodeSlug(blog.slug))}`,
-    lastModified: new Date(blog.date),
-    changeFrequency: "monthly",
-    priority: 0.7,
-  }));
-
   return [
     {
       url: SITE_URL,
@@ -25,12 +22,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 1,
     },
-    {
-      url: `${SITE_URL}/blogs`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-    ...posts,
   ];
 }

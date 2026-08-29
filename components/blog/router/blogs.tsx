@@ -1,16 +1,15 @@
 import { Blog } from "./interfaces";
-import { blogsMeta } from "./blogs.meta";
 
 import Penguins from "@/components/blog/content/penguins.mdx";
 
-/** Rendered body for each post, keyed by slug. Metadata lives in blogs.meta. */
-const contentBySlug: Record<string, React.ReactNode> = {
-  "What Can the Penguins of Madagascar Teach us About Team Collaboration ?": (
-    <Penguins />
-  ),
-};
-
-export const blogs: Blog[] = blogsMeta.map((meta) => ({
-  ...meta,
-  content: contentBySlug[meta.slug],
-}));
+export const blogs: Blog[] = [
+  {
+    title: "Collaborate as a Penguin!",
+    slug: "What Can the Penguins of Madagascar Teach us About Team Collaboration ?",
+    description:
+      "During my childhood, I remember enjoying Penguins of Madagascar. Besides finding it funny to watch at that time, I remember also being fascinated by Kowalski, the brain logic of the team, and the mastermind behind their crazy, yet creative plans.",
+    date: "Dec 21, 2024",
+    content: <Penguins />,
+    image: "/images/blogs/peng/penguins.jpg",
+  },
+];
